@@ -379,6 +379,7 @@
             </li>
           </ul>
         </div>
+
         <div class="subscription">
           <p class="subscription-title">Підпишіться на розсилку</p>
           <form action="#" class="subscription-form">
@@ -435,9 +436,15 @@
             <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Введіть текст" class="textarea"></textarea>
           </div>
 
-          <div class="checkbox">
-            <input type="checkbox" name="policy" id="policy" />
-            <label for="policy">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a> </label>
+          <div class="check">
+            <label class="checkbox-label">
+              <input type="checkbox" name="policy" class="checkbox" />
+              <svg class="checkmark-icon" width="16" height="15">
+                <use href="./images/icons.svg#checkmark-icon"></use>
+              </svg>
+              Погоджуюся з розсилкою та приймаю
+              <a href="" class="checkbox-link">Умови договору</a>
+            </label>
           </div>
 
           <button type="submit" class="modal-form-btn">Відправити</button>
